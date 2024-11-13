@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetail"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="EsemkaStore"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:background="#66bfbf"/>
+
+    <ImageView
+        android:id="@+id/productDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/airjordan9gnrgm24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productDetailNameTextView"
+        android:text="evantolodon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productDetailPriceTextView"
+        android:text="evantolodon"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
